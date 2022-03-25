@@ -1,0 +1,12 @@
+[Unit]
+Description=Launch a game instance
+
+[Service]
+ExecStart=/home/ubuntu/Game/Game.x86_64 -batchmode -nographics
+ExecStartPost=/home/ubuntu/shellscripts/openport.sh %i
+ExecStop=/home/ubuntu/shellscripts/closeport.sh %i
+ExecStop=kill $MAINPID
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target
