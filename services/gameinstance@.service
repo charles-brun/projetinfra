@@ -1,0 +1,12 @@
+[Unit]
+Description=Launch a game instance
+
+[Service]
+ExecStart=/bin/bash -c '~/Game/Game.x86_64 -batchmode -nographics'
+ExecStartPost=/bin/bash -c '~/shellscripts/openport.sh %i'
+ExecStop=/bin/bash -c '~/shellscripts/closeport.sh %i'
+ExecStop=kill $MAINPID
+User=[USERNAME]
+
+[Install]
+WantedBy=multi-user.target
