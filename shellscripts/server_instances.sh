@@ -1,8 +1,13 @@
 #!/bin/bash
 
-dir="/home/ubuntu/.config/unity3d/DefaultCompany/Snake D. Arena"
+dir="~/.config/unity3d/DefaultCompany/Snake D. Arena"
 
 #Launch X instances
+if [ $# -lt 1 ]
+then
+	echo "Pas assez d'arguments :\n--launch <N> ou -l <N> pour lancer <N> instances\n--close ou -c pour fermer les instances en cours\n--status ou -s pour consulter le statut des instances\n" 
+	exit 1
+fi
 if [ $1 = "--launch" ] || [ $1 = "-l" ]
 then
 	if [ $# -eq 2 ]
