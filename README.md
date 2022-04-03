@@ -55,8 +55,8 @@ avec <ARG> :
 
 ## Monitoring
 
-### Graphana
-- Au niveau du monitoring, on utilise le panel admin de Grafana, vous auriez donc juste à suivre les étapes d'installations présentes dans leur site et vous pourriez beneficier d'un monitoring en ligne !
+### Grafana
+- Au niveau du monitoring, on utilise le panel admin de Grafana, vous auriez donc juste à suivre les étapes d'installations présentes dans leur site et vous pourriez bénéficier d'un monitoring en ligne !
 ### AWS
 - Si vous avez décidé d'utiliser un serveur AWS, le service d'Amazon permet la supervision dans leur tableau de bord!
 ## Backup
