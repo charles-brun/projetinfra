@@ -56,9 +56,9 @@ avec <ARG> :
 ## Monitoring
 
 ### Grafana
-- Au niveau du monitoring, on utilise le panel admin de Grafana, vous auriez donc juste à suivre les étapes d'installations présentes dans leur site et vous pourriez bénéficier d'un monitoring en ligne !
+Le monitoring est géré par le panel admin de Grafana, vous aurez donc juste à suivre les étapes d'installation présentes sur leur site pour bénéficier d'une interface graphique en ligne !
 ### AWS
-- Si vous avez décidé d'utiliser un serveur AWS, le service d'Amazon permet la supervision dans leur tableau de bord!
+Si vous avez décidé d'utiliser un serveur AWS, le service d'Amazon permet la supervision sur leur tableau de bord.
 ## Backup
 
-Par rapport au backup, sachant que si un ou plusieurs serveur tombent en panne pendant une partie, la partie se terminera, on en aura donc pas besoin
+Snake D. Arena est un jeu aux fonctionnalités logicielles et réseau simples, proposant des parties très rapides : un système de backup aurait été superflu.
