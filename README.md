@@ -55,5 +55,10 @@ avec <ARG> :
 
 ## Monitoring
 
+### Graphana
+- Au niveau du monitoring, on utilise le panel admin de Grafana, vous auriez donc juste à suivre les étapes d'installations présentes dans leur site et vous pourriez beneficier d'un monitoring en ligne !
+### AWS
+- Si vous avez décidé d'utiliser un serveur AWS, le service d'Amazon permet la supervision dans leur tableau de bord!
 ## Backup
 
+Par rapport au backup, sachant que si un ou plusieurs serveur tombent en panne pendant une partie, la partie se terminera, on en aura donc pas besoin
